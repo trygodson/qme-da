@@ -1,5 +1,5 @@
-// const BASE_URL = 'https://api.onemedy.com/api/v1/';
-const BASE_URL = 'http://localhost:8000/api/v1/';
+const BASE_URL = 'http://shop.scnip.net/api/v1/';
+// const BASE_URL = 'http://localhost:8000/api/v1/';
 const ApiEndpoints = {
   //Doctor
   GET_DOCTOR_INFO_USERID: `doctordetail/user`,
