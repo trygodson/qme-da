@@ -1,0 +1,21 @@
+.rate-doctor {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  .container {
+    .stars {
+      display: flex;
+      justify-content: space-between;
+      svg:hover {
+        cursor: pointer;
+      }
+    }
+    @media (min-width: 1800px) {
+      .stars {
+        width: 250px;
+      }
+    }
+  }
+}

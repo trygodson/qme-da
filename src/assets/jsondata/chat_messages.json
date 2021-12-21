@@ -1,0 +1,14 @@
+[
+    {
+        "id": 100,
+        "from_id":1,
+        "message": "Hello there, how is life going?",
+        "to_id": 2
+    },
+    {
+        "id": 101,
+        "from_id":2,
+        "message": "Hi, I am coming there in few minutes. Please wait!! I am in taxi right now.",
+        "to_id": 1    
+    }
+]

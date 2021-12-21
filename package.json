@@ -1,0 +1,100 @@
+{
+  "name": "proc_b",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.12.3",
+    "@microsoft/signalr": "^5.0.8",
+    "@mui/material": "^5.2.3",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@themesberg/react-bootstrap": "^1.4.1",
+    "@zoomus/websdk": "^1.9.0",
+    "axios": "^0.24.0",
+    "chartist": "^0.11.4",
+    "chartist-plugin-tooltips-updated": "^0.1.4",
+    "cookie": "^0.4.1",
+    "crypto": "^1.0.1",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "node-sass": "^4.14.1",
+    "query-string": "^7.0.1",
+    "radium": "^0.26.1",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-bootstrap-icons": "^1.6.1",
+    "react-chartist": "^0.14.3",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-countdown": "^2.3.2",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^16.13.1",
+    "react-form-stepper": "^1.4.3",
+    "react-github-btn": "^1.2.0",
+    "react-iframe": "^1.8.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-live": "^2.2.3",
+    "react-loading": "^2.0.3",
+    "react-loading-overlay": "^1.0.1",
+    "react-loading-skeleton": "^3.0.1",
+    "react-modal": "^3.14.4",
+    "react-moment": "^1.1.1",
+    "react-papaparse": "^3.18.1",
+    "react-query": "^3.33.4",
+    "react-responsive": "^9.0.0-beta.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "^4.0.3",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-select": "^5.2.1",
+    "react-simple-dropdown": "^3.2.3",
+    "react-table": "^7.7.0",
+    "react-transition-group": "^4.4.1",
+    "react-virtualized": "^9.22.3",
+    "react-virtualized-auto-sizer": "^1.0.6",
+    "react-vis": "^1.11.7",
+    "reactstrap": "^8.9.0",
+    "simplebar-react": "^2.3.0",
+    "styled-components": "^5.3.3",
+    "sweetalert2": "^11.2.2",
+    "sweetalert2-react-content": "^4.2.0",
+    "util": "^0.12.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta"
+  }
+}

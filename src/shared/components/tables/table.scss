@@ -1,0 +1,4 @@
+.table-unstriped > tbody > tr:nth-child(odd) > td,
+.table-unstriped > tbody > tr:nth-child(even) > td {
+  background-color: white;
+}

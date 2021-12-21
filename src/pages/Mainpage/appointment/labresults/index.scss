@@ -1,0 +1,26 @@
+.__border {
+  background-color: #fff;
+  border-radius: 7.5px;
+  box-shadow: 0 0 8px #ccc;
+  padding: 25px;
+  .inner-borderp {
+    border: 1px solid #ccc;
+    padding: 25px;
+    // height: 550px !important;
+    .content {
+      margin-top: 25%;
+    }
+  }
+}
+
+.upload_something {
+  width: 250px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+}
+
+.upload_something:hover {
+  cursor: pointer;
+}

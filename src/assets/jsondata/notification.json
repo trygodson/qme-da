@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Welcome to OneMedi"
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "Youve updated your password"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "A new patient just paid to your account check your wallet"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Charge card failed"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Olabisi Pelemo Just paid you"
+    }
+]

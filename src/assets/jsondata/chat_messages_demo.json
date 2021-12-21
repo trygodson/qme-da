@@ -1,0 +1,22 @@
+[
+  {
+    "id": 101,
+    "from_id": 1,
+    "message": "Hello there, how is life going?",
+    "to_id": 2,
+    "from_name": "John Doe",
+    "to_name": "Patience Doe",
+    "from_image": "http://localhost:3000/male.jpg",
+    "to_image": "http://localhost:3000/male.jpg"
+  },
+  {
+    "id": 100,
+    "from_id": 3,
+    "message": "Hi, I am coming there in few minutes. Please wait!! I am in taxi right now.",
+    "to_id": 1,
+    "from_name": "Travis Scott",
+    "to_name": "John Doe",
+    "from_image": "http://localhost:3000/male.jpg",
+    "to_image": "http://localhost:3000/male.jpg"
+  }
+]

@@ -1,0 +1,92 @@
+import React, { useState, useRef } from 'react';
+import { employees } from '../../../shared/hooks/api/testService.js';
+import { Row } from 'reactstrap';
+import RippleTable from '../../../shared/components/tables/table/TableCard';
+import '../../../';
+
+import {
+  Button,
+  Modal,
+  ModalBody,
+  ModalHeader,
+  ModalFooter,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+} from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SideModalForm from '../../../shared/components/sidemodalform/sidemodalform';
+import LatestRequest from '../dashboard/doctordashboard/latestrequest';
+
+function Tenants() {
+  const [showModal, setShowModal] = useState(false);
+  const modalRef = useRef();
+
+  const decorator = [
+    {
+      label: 'First Name',
+      accessor: 'fullName',
+      Cell: props => <>{props.value}</>,
+    },
+    {
+      label: 'Email',
+      accessor: 'email',
+      Cell: props => <>{props.value}</>,
+    },
+    {
+      label: 'Mobile',
+      accessor: 'mobile',
+      Cell: props => <>{props.value}</>,
+    },
+
+    {
+      label: 'Department',
+      disableSorting: true,
+      accessor: 'department',
+      Cell: props => <div style={{ color: 'green' }}>{props.value}</div>,
+    },
+  ];
+
+  return (
+    <main>
+      <div className="main__container">
+        <div className="main__title">
+          <div className="main__greeting">
+            <h1>Tenants</h1>
+          </div>
+        </div>
+        <div className="row" style={{ marginTop: '-40px' }}>
+          <div className="col-12">
+            <Button
+              color="danger"
+              onClick={() => setShowModal(!showModal)}
+              style={{ float: 'right' }}
+            >
+              Add a Tenant
+            </Button>
+          </div>
+        </div>
+        <div style={{ height: '1px' }}></div>
+        <div className="row">
+          <div className="col-12">
+            <Row className="">
+              <RippleTable
+                title={''}
+                column={decorator}
+                rowAction={() => modalRef.current.props.toggle()}
+                //handleView={(row)=>alert(row.fullName)}
+                fetchService={employees}
+                fullpage={true}
+              />
+            </Row>
+          </div>
+        </div>
+
+        {showModal && <SideModalForm setShowModal={setShowModal} />}
+      </div>
+    </main>
+  );
+}
+
+export default Tenants;

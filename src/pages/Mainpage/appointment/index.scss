@@ -1,0 +1,23 @@
+.MuiPaper-root {
+  background: none !important;
+}
+main {
+  height: auto;
+}
+.buttons-div {
+  margin-top: 20px;
+}
+.row {
+  .hide-on-small-and-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .view_result {
+      box-shadow: 0 0 7px #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      padding: 15px 20px;
+      cursor: pointer;
+    }
+  }
+}

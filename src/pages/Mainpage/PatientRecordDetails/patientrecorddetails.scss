@@ -1,0 +1,146 @@
+.row {
+  ._border {
+    background-color: #fff;
+    border-radius: 7.5px;
+    box-shadow: 0 0 8px #ccc;
+    padding: 20px;
+  }
+  .col-lg-3 {
+    ._container {
+      .row {
+        .container {
+          // border: 1px solid;
+          // height: 260px;
+          margin-bottom: 40px;
+        }
+        .profile {
+          padding: 20px;
+          .a {
+            text-align: center;
+            img {
+              width: 95px;
+              border-radius: 50%;
+            }
+            h4 {
+              margin-top: 7px;
+            }
+            p {
+              margin-top: -8px;
+              font-size: 13px;
+            }
+          }
+        }
+        .details {
+          p {
+            b {
+              // margin-left: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .col-lg-9 {
+    ._container {
+      .row {
+        .search {
+          // border: 1px solid;
+          height: 80px;
+          input {
+            height: 38px;
+            width: 80%;
+            outline: black;
+            padding-left: 10px;
+            border: 1px solid #b3b3b3;
+            margin-left: -25px;
+          }
+          input:focus {
+            outline: none !important;
+            // border:1px solid red;
+            // box-shadow: 0 0 10px #719ECE;
+          }
+          @media (max-width: 1527px) {
+            input {
+              width: 60%;
+            }
+          }
+          @media (max-width: 691px) {
+            input {
+              width: 55%;
+            }
+            button {
+              width: 100px !important;
+            }
+          }
+          button {
+            margin-left: 15px;
+            height: 39px;
+            width: 160px;
+            color: white;
+            background: #1bb187;
+            padding: 0 16px;
+            border: none;
+          }
+        }
+      }
+      .last-visit {
+        margin-top: -10px;
+        b {
+          // margin-left: -13px;
+        }
+      }
+      .last-visit-details {
+        // border: 1px solid;
+        // height: 255px; // delete this
+        margin-top: 10px;
+
+        .description {
+          margin-top: 40px;
+        }
+      }
+      .medical-records {
+        margin-top: 50px;
+        b {
+          // margin-left: -13px;
+        }
+      }
+      .medical-records-details {
+        height: 90px;
+        margin-top: 10px;
+      }
+      .medical-records-details:hover {
+        cursor: pointer;
+      }
+    }
+    .scrollable {
+      height: 430px !important;
+      overflow-y: auto;
+    }
+  }
+}
+
+i {
+  font-size: 22px;
+}
+i:hover {
+  cursor: pointer;
+}
+
+table {
+  thead th {
+    font-weight: lighter;
+    // padding-right: 200px;
+  }
+  tr td {
+    width: 20%;
+  }
+}
+
+@media (max-width: 792px) {
+  .scrollable {
+    width: 500px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1412px) {
+}

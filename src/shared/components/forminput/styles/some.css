@@ -1,0 +1,8 @@
+.vnbn {
+  color: #888888;
+}
+
+input:focus {
+  outline: none !important;
+  border: none !important;
+}

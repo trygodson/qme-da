@@ -1,0 +1,79 @@
+.__border {
+  background-color: #fff;
+  border-radius: 7.5px;
+  box-shadow: 0 0 8px #ccc;
+  padding: 25px;
+  .inner-borders {
+    border: 1px solid #ccc;
+    padding: 25px;
+    height: 550px !important;
+    .ing {
+      height: 100%;
+      width: 100%;
+
+      .content {
+        position: relative;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .druglistWrapper {
+          // width: 95%;
+          height: 80% !important;
+          margin: 0 auto;
+          overflow-y: auto;
+          padding: 10px 5px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+
+          .title {
+            font-weight: bold;
+            font-size: 20px;
+          }
+          .drug {
+            list-style-type: none;
+            padding: 15px 10px;
+            h4 {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#zmmtg-root,
+.meeting-client,
+.meeting-client-inner {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+
+#wc-footer {
+  bottom: auto !important;
+  width: 1000px !important;
+}
+
+#dialog-join {
+  width: 1000px !important;
+}
+
+#sv-active-video,
+.active-main,
+#sv-active-speaker-view,
+.main-layout {
+  height: 500px !important;
+  width: 1000px !important;
+}
+
+.suspension-window {
+  transform: translate(-444px, 10px) !important;
+}
+
+#dialog-invite {
+  display: none;
+}

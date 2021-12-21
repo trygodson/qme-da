@@ -1,0 +1,39 @@
+.druglistWrapper {
+  //   width: 95%;
+  height: 330px !important;
+  overflow-y: auto !important;
+  //   margin: 0 auto;
+  overflow-y: auto;
+  //   padding: 10px 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  .drug {
+    box-shadow: 0 0 8px #ccc;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    position: relative;
+    .close-icon {
+      position: absolute;
+      right: 5px;
+      top: 7px;
+      cursor: pointer;
+    }
+    h6 {
+    }
+    span {
+      margin-right: 20px;
+    }
+    .drug_description {
+      font-size: 12px;
+      text-align: left;
+    }
+  }
+}
+.kkk {
+  height: none;
+}
+.jj {
+  height: 440px !important;
+}

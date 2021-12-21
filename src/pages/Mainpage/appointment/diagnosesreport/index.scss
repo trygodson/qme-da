@@ -1,0 +1,14 @@
+.__border {
+  background-color: #fff;
+  border-radius: 7.5px;
+  box-shadow: 0 0 8px #ccc;
+  padding: 25px;
+  .inner-bordert {
+    border: 1px solid #ccc;
+    padding: 25px;
+    // height: 550px !important;
+    .content {
+      margin-top: 25%;
+    }
+  }
+}

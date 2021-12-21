@@ -1,0 +1,48 @@
+.inner-border-lab {
+  //   border: 1px solid #ccc;
+  padding: 25px;
+  .lab-image-preview {
+    border: 0.00002px solid #ccc;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 8px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    .content {
+      margin-top: 260px;
+    }
+  }
+}
+
+.lab-inputs {
+  input {
+    &:hover {
+    }
+  }
+  textarea {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 12px;
+    height: 345px;
+    outline: none;
+    border: 2px solid #888888;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  input[type='text'] {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 12px;
+    outline: none;
+    border: 2px solid #888888;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    &:focus {
+      border: 2px solid #888888;
+    }
+  }
+}

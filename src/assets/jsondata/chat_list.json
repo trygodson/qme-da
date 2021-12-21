@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "user_id": 2,
+    "name": "Patient #1",
+    "image": "http://localhost:3000/male.jpg",
+    "last_message": "Hello world",
+    "online": true,
+    "unread_messages": 1,
+    "time": "09:00"
+  }
+]
