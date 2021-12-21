@@ -28,8 +28,8 @@ const RedirectionPage = props => {
   const { dispatchtenant } = useTenantState();
   const { user, dispatch } = useAuthState();
 
-  // const rootDashboardUrl = 'https://app.onemedy.com/app/dashboard';
-  const rootDashboardUrl = 'http://localhost:3000/app/dashboard';
+  const rootDashboardUrl = 'https://qmedic-dash.netlify.app/app/dashboard';
+  // const rootDashboardUrl = 'http://localhost:3000/app/dashboard';
 
   const api = `${BASE_URL}userinfo`;
   async function checkdoctor(id) {
